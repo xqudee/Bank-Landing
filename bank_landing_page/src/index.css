@@ -73,7 +73,7 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125deg, #272727 0%, #11101D 100%);
 }
 
 .box-shadow {
@@ -135,6 +135,12 @@
 }
 
 .white__gradient {
-  background: rgba(255, 255, 255, 0.6);
+  background: #ffffff99;
   filter: blur(750px);
+}
+
+.white__gradient__1 {
+  background: #FFF;
+  filter: blur(225px);
+  border-radius: 324px;
 }
