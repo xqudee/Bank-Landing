@@ -33,7 +33,7 @@ const Hero = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
         We examine annual percentage rates, annual fees.</p>
 
-        <div className='absolute top-[50%] translate-y-[-60%] left-0 w-[20%] h-[50%] z-[0] white__gradient__1'></div>
+        <div className='absolute top-0 -left-[10%] w-[20%] h-[50%] z-[0] white__gradient__1'></div>
       </div>
       
       <div className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative`}>
