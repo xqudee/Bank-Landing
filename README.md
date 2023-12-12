@@ -1,6 +1,6 @@
 # HooBank - Landing Page
 
-Modern website using React.js & Tailwind.css | <b>[Preview](https://www.youtube.com/watch?v=X1nptFmwAeQ&ab_channel=AnnaM.)</b>
+Modern website using React.js & Tailwind.css</b>
 
 ## Guidelines to setup
 
