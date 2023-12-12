@@ -4,7 +4,7 @@ import { clients } from '../constants'
 
 const Clients = () => {
   return (
-    <section className={`${styles.flexCenter} my-4`}>
+    <section className={`${styles.flexCenter} mb-10`}>
       <div className={`${styles.flexCenter} max-w-[100%] marquee marquee--fit-content marquee--hover-pause`}>
         <div className='marquee__content'>
           {clients.map((client) => (

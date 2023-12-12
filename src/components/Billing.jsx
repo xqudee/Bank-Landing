@@ -6,8 +6,8 @@ import MovingImage from './MovingImage'
 const Billing = () => {
   return (
     <section id='product' className={`${layout.sectionReverse} relative`}>
-      <div className={`${layout.sectionImgReverse} items-center`}>
-        <MovingImage image={bill} alt={'billing'} coef={1.5} styles={'w-[100%] max-w-[530px] max-h-[455px] relative z-[5]'} />
+      <div className={`${layout.sectionImgReverse} items-center min-h-[400px]`}>
+        <MovingImage image={bill} alt={'billing'} coef={1.5} styles={'w-[100%] max-w-[530px] max-h-[455px] relative z-[5] h-inherit'} />
       </div>
 
       <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />

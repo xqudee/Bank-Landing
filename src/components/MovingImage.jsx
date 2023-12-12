@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const MovingImage = ({image, alt, styles, coef = 2}) => {
+const MovingImage = ({image, alt, styles, minH, coef = 2}) => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
 
     const handleMouseMove = (e) => {
@@ -16,14 +16,14 @@ const MovingImage = ({image, alt, styles, coef = 2}) => {
   
     return (
       <div
-        className="container relative flex items-center w-[100%] justify-end"
+        className={`container relative flex items-center justify-center w-[100%] justify-end  h-inherit min-h-[${minH}]`}
         onMouseMove={handleMouseMove}
         onMouseLeave={resetPosition}
       >
         <img
           src={image}
           alt={alt}
-          className={`moving-image ${styles}`}
+          className={`moving-image ${styles} sm:transform-none`}
           style={{
             position: 'absolute',
             transition: 'transform 1s ease-out',

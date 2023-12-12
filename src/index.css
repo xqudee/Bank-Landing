@@ -149,10 +149,18 @@
   width: 0;
 }
 
+.marquee {
+  --gap: 100px;
+}
+
+@media (max-width: 768px) {
+  .marquee {
+    --gap: 20px;
+  }
+}
 
 /* Marquee styles */
 .marquee {
-  --gap: 100px;
   position: relative;
   display: flex;
   overflow: hidden;
@@ -180,4 +188,8 @@
 
 .marquee--hover-pause:hover .marquee__content {
   animation-play-state: paused;
+}
+
+.h-inherit {
+  height: inherit;
 }

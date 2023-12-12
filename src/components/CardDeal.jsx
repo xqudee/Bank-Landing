@@ -15,8 +15,8 @@ const CardDeal = () => {
         <Button styles="mt-10" />
       </div>
 
-      <div className={layout.sectionImg}>
-        <MovingImage image={card} alt={'card'} coef={1.3} styles={'w-[100%] max-w-[513px] max-h-[449px]'} />
+      <div className={`${layout.sectionImg} min-h-[513px]`}>
+        <MovingImage image={card} alt={'card'} minH={'513px'} coef={1.25} styles={'w-[100%] max-w-[513px] max-h-[449px]'} />
       </div>
     </section>
   )
