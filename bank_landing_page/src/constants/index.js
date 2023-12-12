@@ -181,17 +181,21 @@ export const clients = [
   {
     id: "client-1",
     logo: airbnb,
+    link: 'https://www.airbnb.com/?_set_bev_on_new_domain=1702393779_ZWU4MzQ0NTE3ZTA1&locale=en',
   },
   {
     id: "client-2",
     logo: binance,
+    link: 'https://www.binance.com/en',
   },
   {
     id: "client-3",
     logo: coinbase,
+    link: 'https://www.coinbase.com/',
   },
   {
     id: "client-4",
     logo: dropbox,
+    link: 'https://www.dropbox.com/en_GB/',
   },
 ];

@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Button from "./Button";
 import FeedbackCard from "./FeedbackCard";
+import MovingImage from "./MovingImage";
 
 export {
   Navbar,
@@ -23,5 +24,6 @@ export {
   Testimonials,
   Hero,
   Button,
-  FeedbackCard
+  FeedbackCard,
+  MovingImage
 };

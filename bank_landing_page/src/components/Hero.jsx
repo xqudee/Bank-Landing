@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../style'
 import { discount, robot } from '../assets'
 import GetStarted from './GetStarted'
+import MovingImage from './MovingImage'
 
 const Hero = () => {
   return (

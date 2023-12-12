@@ -2,6 +2,7 @@ import React from 'react'
 import styles, {layout} from '../style'
 import Button from './Button'
 import { card } from '../assets'
+import MovingImage from './MovingImage'
 
 const CardDeal = () => {
   return (
@@ -15,7 +16,7 @@ const CardDeal = () => {
       </div>
 
       <div className={layout.sectionImg}>
-        <img src={card} alt='card' className='w-[100%] max-w-[513px] max-h-[449px]' />
+        <MovingImage image={card} alt={'card'} coef={1.3} styles={'w-[100%] max-w-[513px] max-h-[449px]'} />
       </div>
     </section>
   )
