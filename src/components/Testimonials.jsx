@@ -19,6 +19,7 @@ const Testimonials = () => {
       </div>
 
       <div className='grid md:grid-cols-3 sm:grid-cols-2 sm:justify-start justify-center w-full feedback-container relative z-[1]'>
+        <div className='absolute h-[100%] w-[40%] rounded-[200px] z-0 -right-[40%] top-[10%] blue__gradient__1' />
         {feedback.map((item, index) => (
           <FeedbackCard key={item.id} {...item} />
         ))}
