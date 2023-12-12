@@ -144,3 +144,40 @@
   filter: blur(225px);
   border-radius: 324px;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+/* Marquee styles */
+.marquee {
+  --gap: 100px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  gap: var(--gap);
+  padding-left: 100%;
+}
+
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+.marquee--hover-pause:hover .marquee__content {
+  animation-play-state: paused;
+}

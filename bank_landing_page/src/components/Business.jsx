@@ -9,10 +9,10 @@ const FeatureCard = ({icon, title, content, index}) => (
     <div className={`bg-dimBlue h-[64px] min-w-[64px] rounded-full ${styles.flexCenter}`}>
       <img src={icon} alt={title} className='w-[50%] h-[50%] object-contain' />
     </div>
-    <p className='text-white'>
+    <div className='text-white'>
       <h4 className='text-[18px] font-semibold mb-[8px]'>{title}</h4>
       <p className='opacity-[70%] text-[16px] leading-[24px]'>{content}</p>
-    </p>
+    </div>
   </div>
 )
 
