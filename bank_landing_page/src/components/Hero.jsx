@@ -6,7 +6,7 @@ import GetStarted from './GetStarted'
 const Hero = () => {
   return (
     <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col md:pl-[135px] sm:pl-16 pl-6 sm:pr-16 ss:pr-6 pr-0 relative`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col md:pl-[135px] sm:pl-16 xl:pl-0 pl-6 sm:pr-6 ss:pr-6 relative`}>
         <div className='flex flex-row items-center py-[6px] pl-4 pr-5 bg-discount-gradient rounded-[10px] mb-2 z-[1]'>
           <img src={discount} alt='discount'
             className='w-[32px] h-[32px]'
