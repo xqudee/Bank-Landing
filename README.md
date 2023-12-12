@@ -1,6 +1,6 @@
 # HooBank - Landing Page
 
-Modern website using React.js & Tailwind.css | <b>[Preview](https://main--papaya-kulfi-a578d1.netlify.app/)</b>
+Modern website using React.js & Tailwind.css | <b>[Preview](https://hoobank-page.netlify.app/)</b>
 
 ## Guidelines to setup
 
