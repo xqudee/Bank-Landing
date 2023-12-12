@@ -26,7 +26,7 @@ const MovingImage = ({image, alt, styles, minH, coef = 2}) => {
           className={`moving-image ${styles} sm:transform-none`}
           style={{
             position: 'absolute',
-            transition: 'transform 1s ease-out',
+            transition: 'transform 2s ease-out',
             transform: `translate(${position.x}px, ${position.y}px)`,
           }}
         />
